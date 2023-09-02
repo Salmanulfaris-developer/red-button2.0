@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Button</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./icons/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1> RED BUTTON </h1>
+        <form action="" id="redButton">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." required/>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." required/>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="mobileNumber" placeholder="Your Number" required>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="location" placeholder="Your Google Map Location" required>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="storeName" placeholder="Name of store or Agent" required>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
